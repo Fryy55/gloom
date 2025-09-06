@@ -1,0 +1,12 @@
+# ily vscode
+*.code-workspace
+
+# cpm
+cmake/
+
+# build stuff
+build/
+bin/
+
+# local stuff
+src/test.cpp
