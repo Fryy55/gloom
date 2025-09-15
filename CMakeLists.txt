@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 23)
 
 set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
 set(GLAD_DIR ${CMAKE_SOURCE_DIR}/glad)
+set(GLOOM_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/gloom)
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
     ${SRC_DIR}/*.cpp
     ${GLAD_DIR}/*.c
@@ -16,7 +17,9 @@ target_include_directories(${PROJECT_NAME}
     PRIVATE
         ${GLAD_DIR}/include
 
-        ${CMAKE_SOURCE_DIR}/include
+        ${GLOOM_INCLUDE_DIR}
+        ${GLOOM_INCLUDE_DIR}/singletons
+        ${GLOOM_INCLUDE_DIR}/utils
 )
 
 include(cmake/CPM.cmake)

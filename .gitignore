@@ -9,4 +9,4 @@ build/
 bin/
 
 # local stuff
-src/test.cpp
+#src/test.cpp
