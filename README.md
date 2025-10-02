@@ -1,4 +1,4 @@
-this repo is archived cuz it's silly and hard to incorporate and i have stuff to do
+this repo is archived cuz it's silly and hard to incorporate and i have stuff to do\
 og readme below
 
 # GLOOM - OpenGL Object Oriented Monstrosity
